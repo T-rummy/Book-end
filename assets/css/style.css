@@ -1,0 +1,37 @@
+* {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    overflow: hidden;
+    
+
+}
+a {
+    text-decoration: none;
+}
+
+
+.main-img{
+    height: 100vh;
+    background-image: url("../images/It-Clown.jpg");
+    
+        
+        
+        display: flex;
+        justify-content: center;
+        align-items: center;
+   
+}
+.carousel {
+    height: 50%;
+}
+.carousel-item{
+    height: 100vh;
+    width: auto;
+    border: 10px solid rgba(0, 0, 0, .5);
+    border-radius: 25px;
+    
+    
+    z-index: 1000;
+} 
+
