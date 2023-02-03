@@ -16,7 +16,8 @@
     
         
         background-image: url("../images/bbb.jpg");
-        background-size: contain;
+        background-size: cover;
+        background-repeat: no-repeat;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -41,6 +42,16 @@
     box-shadow: 0 0 10px 10px black;
     z-index: 1000;
 }
+
+   @media screen and (max-width: 800px) {
+
+    .carousel .carousel-item>img {
+            height: 50% !important;
+            width: auto;
+            
+        }
+
+   }
 
 
 
